@@ -1,4 +1,4 @@
-FROM zammad/zammad:latest
+FROM zammad/zammad:3.4.0-56
 # Attempting to fix file permissions from container to shared volume
 # When using mkdir command, I need to specify -p to create parents as necessary. Otherwise, this line will fail
 RUN mkdir -p /shared/zammad_data
