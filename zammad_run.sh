@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Attempting to use docker environment variables
 usermod -u ${USER_ID} ${ZAMMAD_USER} -g ${GROUP_ID} -G ${ZAMMAD_USER},adm,cdrom,sudo,dip,plugdev;
